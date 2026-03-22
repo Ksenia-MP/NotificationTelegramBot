@@ -86,13 +86,27 @@ images/
 
 ---
 
-### 5. Скачивание и настройка проекта
+### 5. Скачивание проекта
 
-**Скачайте проект:**
+**Способ 1 (рекомендуемый для новичков): Скачать ZIP-архив**
+
+1. Перейдите на страницу проекта: [https://github.com/Ksenia-MP/NotificationTelegramBot](https://github.com/Ksenia-MP/NotificationTelegramBot)
+2. Нажмите зеленую кнопку **"Code"** (вверху справа)
+3. Выберите **"Download ZIP"**
+4. Распакуйте архив в удобную папку (например, `C:\path\to-my\projects`)
+
+**Способ 2: Через Git (если он установлен)**
+
+Если у вас установлен Git, выполните в командной строке:
 ```bash
 git clone https://github.com/Ksenia-MP/NotificationTelegramBot.git
 cd NotificationTelegramBot
 ```
+
+**Если Git не установлен:**
+- Скачайте Git с официального сайта: https://git-scm.com/download/win
+- Установите, оставив все настройки по умолчанию
+- После установки перезапустите командную строку и повторите команду `git clone`
 
 **Установите зависимости:**
 ```bash
