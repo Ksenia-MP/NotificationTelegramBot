@@ -96,11 +96,6 @@ cd NotificationTelegramBot
 
 **Установите зависимости:**
 ```bash
-pip install -r requirements.txt
-```
-
-Если файла `requirements.txt` нет, создайте его:
-```bash
 pip install pytelegrambotapi apscheduler
 ```
 
