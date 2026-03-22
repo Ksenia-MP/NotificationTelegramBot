@@ -170,7 +170,7 @@ python main.py
 ```
 
 **Через проводник:**
-1. Через проводник откройтек папку с проектом NotificationTelegramBot --> guild_bot
+1. Через проводник откройтек папку с проектом NotificationTelegramBot → guild_bot
 2. Запустите файл main.py
 
 Должно появиться:
