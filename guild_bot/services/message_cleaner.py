@@ -10,7 +10,7 @@ class MessageCleaner:
     Хранит лог сообщений в JSON-файле и удаляет их по расписанию.
     Не зависит от планировщика, вызывается вручную перед отправкой дайджеста.
     """
-    def __init__(self, bot: telebot.TeleBot, log_file: str = "message_log.json"):
+    def __init__(self, bot: telebot.TeleBot, log_file: str = config.MESSAGE_LOG_JSON):
         """
         Args:
             bot: Экземпляр бота для удаления сообщений.
