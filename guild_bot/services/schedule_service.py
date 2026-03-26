@@ -6,10 +6,6 @@ from services.storage_service import CSVEventStorage
 
 class ScheduleService:
     """Сервис для работы с расписанием событий"""
-    
-    # def __init__(self):
-    #     self.schedule = self._init_schedule()
-
     def __init__(self, storage: Optional[CSVEventStorage] = None):
         """
         storage: Хранилище CSV. Если не указано создается новое с файлом по умолчанию.
