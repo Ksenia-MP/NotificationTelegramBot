@@ -10,7 +10,7 @@ class CSVEventStorage:
     Позволяет редактировать расписание без изменения кода.
     """
     
-    def __init__(self, file_path: str = "schedule.csv"):
+    def __init__(self, file_path: str = config.SCHEDULE_CSV):
         """
         Args:
             file_path: Путь к CSV-файлу с расписанием.
